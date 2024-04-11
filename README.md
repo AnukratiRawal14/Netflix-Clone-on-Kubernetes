@@ -1,1 +1,1 @@
-# NetflixClone-on-Kubernetes
+# Deploy netflix clone on kubernetes
