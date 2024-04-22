@@ -17,4 +17,4 @@ spec:
           service:
             name: netflix-clone
             port:
-              number: 31005
+              number: 31008
