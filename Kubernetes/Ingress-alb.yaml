@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: hello-world
+  name: netflix-clone
   annotations:
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
@@ -15,6 +15,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: helloworld
+            name: netflix-clone
             port:
               number: 31005
