@@ -4,8 +4,8 @@ metadata:
   name: helloworld
 spec:
   ports:
-  - port: 31005
-    nodePort: 31010
+  - port: 31001
+    nodePort: 31009
     targetPort: 80
     protocol: TCP
   selector:
