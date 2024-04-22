@@ -4,8 +4,8 @@ metadata:
   name: netflix-clone
 spec:
   ports:
-  - port: 31005
-    nodePort: 31010
+  - port: 31008
+    nodePort: 31012
     targetPort: 80
     protocol: TCP
   selector:
